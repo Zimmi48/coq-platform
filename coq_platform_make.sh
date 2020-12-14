@@ -86,12 +86,14 @@ source shell_scripts/sanitize_environment.sh
 
 # NOTE: If you comment some questions for a custom setup, please assign
 #       the variable set in the script a default value.
-
-source shell_scripts/ask_introduction.sh
-source shell_scripts/ask_parallel_build.sh
-source shell_scripts/ask_compcert_open_source.sh
-source shell_scripts/ask_vst.sh
-source shell_scripts/ask_delete_opam_switch.sh
+COQ_PLATFORM_EXTENT=c
+COQ_PLATFORM_PARALLEL=p
+COQ_PLATFORM_JOBS=2
+#source shell_scripts/ask_introduction.sh
+#source shell_scripts/ask_parallel_build.sh
+#source shell_scripts/ask_compcert_open_source.sh
+#source shell_scripts/ask_vst.sh
+#source shell_scripts/ask_delete_opam_switch.sh
 
 ###################### INSTALL/INIT OPAM #####################
 
